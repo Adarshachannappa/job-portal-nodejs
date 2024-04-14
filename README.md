@@ -30,4 +30,15 @@
   - Use import and export instead of require while importing the packages.
 
 - Installed dotenv : to secure the passwords or tokens
+
   - npm install dotenv --save
+
+- MongoDB cloud, loggedIn using Gmail
+
+  - Created Cluster
+  - Added a new user + password - under database access
+  - Added a network, 0.0.0.0/0
+  - Get the Cloud link using connect under database -> select the aws/microsoft azure
+  - Add the could connection link under .env with userid and password, provide the database name at the end
+
+- from mogoosejs.com -> take the local mongodb IP and add that too in .env file with database name (eg. jobportal)
